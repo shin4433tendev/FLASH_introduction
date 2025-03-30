@@ -194,10 +194,20 @@ img {
     justify-content: center;
     align-items: center;
     height: 60px;
+    text-align: center;
 
     & .footer-content {
         font-size: clamp(10px, 1vw, 10px);
     }
+
+    & .footer-content a {
+        color: white;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            color: $cOrange;
+        }
+    }
+    
 }
 
 
