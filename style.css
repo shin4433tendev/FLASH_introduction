@@ -174,7 +174,15 @@ p {
   justify-content: center;
   align-items: center;
   height: 60px;
+  text-align: center;
 }
 .footer .footer-content {
   font-size: clamp(10px, 1vw, 10px);
+}
+.footer .footer-content a {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.footer .footer-content a:hover {
+  color: #FF7F3E;
 }/*# sourceMappingURL=style.css.map */
