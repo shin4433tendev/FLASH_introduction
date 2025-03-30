@@ -92,11 +92,6 @@ p {
     font-size: clamp(15px, 6vw, 100px);
   }
 }
-@media screen and (max-width: 435px) {
-  .main #slide1 .slide1-left .slide1-description p {
-    font-size: clamp(15px, 2.5vw, 100px);
-  }
-}
 .main #slide1 .slide1-left .app-icons {
   margin-top: 5%;
   display: flex;

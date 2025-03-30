@@ -20,8 +20,7 @@ img {
  p {
     font-size: clamp(12px, 3vw, 20px);
     @media (max-width: 435px) {
-        font-size: clamp(15px, 2.5vw, 100px
-    );
+        font-size: clamp(15px, 2.5vw, 100px);
     }
  }
 .main {
@@ -97,13 +96,6 @@ img {
                             text-align: center;
                             font-size: clamp(15px, 6vw, 100px);
                         }
-                    }
-                }
-
-                & p {
-                    @media screen and (max-width: 435px) {
-                        // margin: 0;
-                        font-size: clamp(15px, 2.5vw, 100px);
                     }
                 }
             }
